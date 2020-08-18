@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect, useReducer} from 'react';
 
-const BASE_URL = 'https://api.musixmatch.com/ws/1.1/';
+const BASE_URL = 'https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/';
 
 const ACTIONS = {
     MAKE_REQUEST: 'make-request',

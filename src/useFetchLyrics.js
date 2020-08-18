@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react';
 
 export default function useFetchLyrics(track_id) {
 
-    const BASE_URL = 'https://api.musixmatch.com/ws/1.1/';
+    const BASE_URL = 'https://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/';
 
     const [lyrics, setLyrics] = useState(null);
     const [lyricsLoading, setLyricsLoading] = useState(true);
