@@ -1,0 +1,18 @@
+.songList {
+    width: 50%;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .songList{
+        width: 90%;
+    }
+}
+
+.message {
+    font-size: 1.5em;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
